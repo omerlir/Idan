@@ -1,0 +1,109 @@
+.front-page {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    height: 70px;
+    background-color:rgb(238, 237, 237) ;
+    align-items: center;
+
+}
+.logo {
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    left: 6%;
+    position: relative;
+}
+
+.profile-photo {
+    height: 130px;
+    width: 130px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-image: url('./assets/Photos/profile-icon-design-free-vector.jpg');
+    background-repeat: no-repeat; 
+    position: relative;
+    background-size: 130px;
+}
+.profile-photo-container {
+    height: 65px ;
+    background-color: rgb(238, 237, 237);
+    justify-content: center;
+    display: flex;
+}
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+}
+.section.one {
+    height: 440px;
+    text-align: center;
+    margin-top: 20px;
+}
+.bold {
+    font-weight: 900;
+}
+
+.section.one .button {
+    margin-top: 15px;
+}
+.section.one button {
+    color: white;
+    background-color: black;
+    width: 250px;
+    height: 45px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.section.two {
+    background-color: rgba(229, 229, 229, 0.984);
+    text-align: right;
+}
+
+.section.three {
+    text-align: right;
+    padding: 25px 10px 0px 10px;
+
+}
+.section.three ol {
+    padding-right:  0px; 
+    padding-bottom: 25px;
+    padding-top: 0px;
+    list-style-position: inside;
+    margin-left: 65px;
+}
+
+.footer {
+    background-color: black;
+    height: 150px;
+    color: white;
+    justify-content:start ;
+    direction: ltr;
+}
+.footer p {
+    margin-top:26px;
+}
+.footer .icons {
+    display: flex;
+    gap: 15px;
+}
+.footer .icons a {
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer .icons img {
+    height: 30px;
+}
